@@ -12,7 +12,7 @@ def sets_generator(bayes_input=30):
 
     :return: numpy array of labels, numpy array of MFCCs
     """ 
-	auDir = '/learning'
+    auDir = '/learning'
    
     genres = np.zeros((bayes_input*7,1))
     extracted_features = np.zeros((bayes_input*7, 156))
