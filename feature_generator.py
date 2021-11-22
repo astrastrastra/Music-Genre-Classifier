@@ -74,4 +74,4 @@ def sets_generator(bayes_input=30):
 
     return extracted_features, genres
 
-sets_generator()
+
