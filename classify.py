@@ -11,7 +11,7 @@ from sklearn.metrics import ConfusionMatrixDisplay
 def main():
     genres_num = 7
 	
-	X, y = sets_generator()
+    X, y = sets_generator()
     #X = np.load('modele/cechy' + str(genres_num) + '.npy')
     #y = np.load('modele/gatunki' + str(genres_num) + '.npy')
     
