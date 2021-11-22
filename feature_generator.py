@@ -69,8 +69,8 @@ def sets_generator(bayes_input=30):
         fea = extractMFCC(auFile)
         extracted_features[i + 6 * bayes_input][:] = fea
 
-    np.save('cechy7.npy', extracted_features)
-    np.save('gatunki7.npy', genres)
+    np.save('features7.npy', extracted_features)
+    np.save('genres7.npy', genres)
 
     return extracted_features, genres
 

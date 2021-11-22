@@ -46,7 +46,7 @@ def main():
 
     disp = ConfusionMatrixDisplay(confusion_matrix=sklearn, display_labels=display_labels[0:(genres_num - 1)])
     disp.plot(include_values=True, cmap='PuBu')
-    plt.title("Wspolczynnik zgodnosci: %.2f" % (correct/j))
+    plt.title("Compliance coefficient: %.2f" % (correct/j))
 
     plt.show()
 
