@@ -12,8 +12,8 @@ def main():
     genres_num = 7
 	
     X, y = sets_generator()
-    #X = np.load('modele/cechy' + str(genres_num) + '.npy')
-    #y = np.load('modele/gatunki' + str(genres_num) + '.npy')
+    #X = np.load('modele/features' + str(genres_num) + '.npy')
+    #y = np.load('modele/genres' + str(genres_num) + '.npy')
     
     model = GaussianNB()
     model.fit(X, np.ravel(y))
