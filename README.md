@@ -7,7 +7,7 @@ The GTZAN music dataset was used in this project (http://marsyas.info/downloads/
 
 The project was accomplished by extracting mel frequency cepstral coefficients (MFCC) from short music files. No signal processing libraries were used to solve this task. A naive Bayes classifier is trained with the derived data. It then determines a validated audio's genre.
 
-A brief guide to implemented methods has been presented in *Guide-polish.pdf* file.
+A brief guide to implemented methods has been presented in *ProjectSummary-polish.pdf* file.
 
 # Results
 
